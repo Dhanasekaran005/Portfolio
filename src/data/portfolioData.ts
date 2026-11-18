@@ -7,22 +7,22 @@
 
 /* ───────────── 1. BASIC INFO ───────────── */
 export const SITE = {
-  name: 'Your Name', // shown in navbar, footer, hero, about
-  pageTitle: 'Your Name – Your Role', // browser tab title
-  role: 'Your Role', // footer subtitle
-  email: 'you@example.com',
+  name: 'DHANASEKARAN S A', // shown in navbar, footer, hero, about
+  pageTitle: 'ASSISTANT-TNSC HRD', // browser tab title
+  role: 'Assistant-HRD', // footer subtitle
+  email: 'dhanasekarandhanasekaran77@gmail.com',
   // digits only, with country code, no + or spaces (e.g. 919876543210)
-  phone: '910000000000',
+  phone: '919487339874',
   whatsappMessage: 'Hi, I visited your portfolio and would like to get in touch.',
   available: true,
 };
 
 /* ───────────── 2. HERO (top of page) ───────────── */
 export const HERO = {
-  eyebrow: 'YOUR PROFESSION • YOUR SPECIALITY',
-  headline: 'YOUR NAME', // big text, use CAPS
-  roles: ['YOUR ROLE ONE', 'YOUR ROLE TWO'] as [string, string],
-  tagline: 'One sentence about what you do and the value you bring.',
+  eyebrow: 'B.Tech AI&DS Graduate',
+  headline: 'DHANASEKARAN', // big text, use CAPS
+  roles: ['Data Analyst', 'AI Enginee'] as [string, string],
+  tagline: 'A B.Tech Graduate in Govt Job',
   primaryButton: 'EXPLORE MY WORK',
   secondaryButton: 'Get In Touch',
   image: '/assets/hero-red-bg.jpg', // 1920x1080, subject on the RIGHT side
