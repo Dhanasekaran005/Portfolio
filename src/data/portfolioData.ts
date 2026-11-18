@@ -23,53 +23,52 @@ export const HERO = {
   headline: 'DHANASEKARAN', // big text, use CAPS
   roles: ['Data Analyst', 'AI Enginee'] as [string, string],
   tagline: 'A B.Tech Graduate in Govt Job',
-  primaryButton: 'EXPLORE MY WORK',
+  primaryButton: 'EXPLORE About Me',
   secondaryButton: 'Get In Touch',
   image: '/assets/hero-red-bg.jpg', // 1920x1080, subject on the RIGHT side
-  imageAlt: 'Portrait of Your Name',
+  imageAlt: 'DHANASEKARAN S A',
   imagePosition: '69% center', // CSS object-position fallback
 };
 
 /* ───────────── 3. LOADING SCREEN ───────────── */
 export const LOADER = {
-  statement: 'YOUR ONE LINE STATEMENT GOES RIGHT HERE',
+  statement: 'Welcome to My Portfolio',
   redWords: ['STATEMENT', 'HERE'], // words highlighted in red
 };
 
 /* ───────────── 4. ABOUT ───────────── */
 export const ABOUT = {
-  eyebrow: 'Your Role · Your Field · Your Strength',
+  eyebrow: 'Assistant · HRD · TNSC BANK',
   portrait: '/media/profile.webp', // 4:5 portrait photo
-  portraitAlt: 'Portrait of Your Name',
-  portraitCaption: 'Your Title', // small red text under the name on the photo
+  portraitAlt: 'DHANASEKARAN S A',
+  portraitCaption: 'Crew Guy', // small red text under the name on the photo
   paragraphs: [
-    'First paragraph: who you are and what you do, in one or two sentences.',
-    'Second paragraph: what you care about, how you work, or what you are looking for.',
+    'Completed B.Tech on 2025',
+    'Joined TNSC Bank on 2026',
   ],
-  technologies: ['Skill One', 'Skill Two', 'Skill Three', 'Skill Four', 'Skill Five', 'Skill Six'],
-  focus: ['Focus Area One', 'Focus Area Two', 'Focus Area Three'],
+  technologies: ['Python', 'SQL', 'Power BI', 'Advanced MS Office'],
+  focus: ['Problem Solving', 'Team Work', 'Technical Support','Team Guidance'],
 };
 
 /* ───────────── 5. SOCIAL LINKS (footer) ───────────── */
 export const SOCIALS = [
-  { id: 'github', label: 'GitHub', href: 'https://github.com/your-username' },
-  { id: 'linkedin', label: 'LinkedIn', href: 'https://linkedin.com/in/your-username' },
+  { id: 'github', label: 'GitHub', href: 'https://github.com/Dhanasekaran005' },
+  { id: 'linkedin', label: 'LinkedIn', href: 'https://linkedin.com/in/Dhanasekaran' },
 ] as const;
 
 /* ───────────── 6. TECHNICAL SKILLS (6 cards look best) ───────────── */
 export const SKILL_CARDS: { name: string; category: string; level: string }[] = [
-  { name: 'Skill One', category: 'Tool A · Tool B', level: 'Advanced' },
-  { name: 'Skill Two', category: 'Tool A · Tool B', level: 'Advanced' },
-  { name: 'Skill Three', category: 'Tool A · Tool B', level: 'Proficient' },
-  { name: 'Skill Four', category: 'Tool A · Tool B', level: 'Proficient' },
-  { name: 'Skill Five', category: 'Tool A · Tool B', level: 'Proficient' },
-  { name: 'Skill Six', category: 'Tool A · Tool B', level: 'Proficient' },
+  { name: 'Python', category: 'Python 3.0', level: 'Advanced' },
+  { name: 'Power BI', category: 'App', level: 'Basic' },
+  { name: 'Excel', category: 'MS Office', level: 'Proficient' },
+  { name: 'Designing', category: 'Canva · Figma', level: 'Proficient' },
+  { name: '3D Modeling', category: 'Blender . Maya', level: 'Proficient' },
 ];
 
 /* ───────────── 6b. TECH STACK STRIP (logos under the skills) ─────────────
  * Use names with a built-in logo: React, JavaScript, Python, FastAPI, PostgreSQL,
  * Supabase, SQLite, Three.js, GSAP. Any other name still shows as a lettered badge. */
-export const TECH_STACK: string[] = ['React', 'JavaScript', 'Python', 'PostgreSQL', 'Three.js', 'GSAP'];
+export const TECH_STACK: string[] = ['Power BI', 'SQL', 'Python', 'MS Office', 'Canva', 'Figma'];
 
 /* ───────────── 7. PROJECTS ─────────────
  * Thumbnails: put project-<n>-1.jpg, -2.jpg, -3.jpg in /public/assets/thumbnails/
@@ -94,23 +93,23 @@ export interface Project {
 
 export const PORTFOLIO_PROJECTS: Project[] = [
   {
-    id: 'project-one',
-    kind: 'software',
-    title: 'Project One',
-    subtitle: 'One-line subtitle',
-    category: 'Category One',
+    id: '3D Modeling',
+    kind: 'Blender',
+    title: 'Gaming Objects 3D',
+    subtitle: 'AR Games',
+    category: '3D Models',
     poster: '/assets/thumbnails/project-1-1.jpg',
     description: 'Two sentences about what this project does, who it is for and what you did.',
-    tags: ['Tag One', 'Tag Two', 'Tag Three'],
+    tags: [''],
     // liveUrl: 'https://example.com',
     // repoUrl: 'https://github.com/your-username/project-one',
   },
   {
-    id: 'project-two',
-    kind: 'software',
-    title: 'Project Two',
-    subtitle: 'One-line subtitle',
-    category: 'Category Two',
+    id: 'Smart Attendance System Using LBPH Algorithm',
+    kind: 'VS Code',
+    title: 'Smart AI Attendance System',
+    subtitle: 'LBPH Algorithm Using Face Analysis',
+    category: 'Python Program With Power BI Dashboard',
     poster: '/assets/thumbnails/project-2-1.jpg',
     description: 'Two sentences about what this project does, who it is for and what you did.',
     tags: ['Tag One', 'Tag Two', 'Tag Three'],
